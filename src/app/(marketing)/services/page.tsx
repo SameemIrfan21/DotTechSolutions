@@ -226,7 +226,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-4">What's Included</h4>
+                  <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-4">What&apos;s Included</h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {selectedService.features.map((f) => (
                       <div key={f} className="flex items-start gap-3 bg-slate-50 border border-slate-100 rounded-lg p-3">
@@ -312,7 +312,7 @@ export default function ServicesPage() {
               ✕
             </button>
             <h3 className="text-2xl font-black text-slate-900 mb-2">Request a Free Quote</h3>
-            <p className="text-base text-slate-600 mb-8">Tell us about your project and we'll get back to you within 24 hours.</p>
+            <p className="text-base text-slate-600 mb-8">Tell us about your project and we&apos;ll get back to you within 24 hours.</p>
 
             <form className="space-y-6" onSubmit={(e) => { e.preventDefault(); setQuoteOpen(false); }}>
               <div className="grid grid-cols-2 gap-4">

@@ -47,11 +47,11 @@ export default function ContactPage() {
             Get In Touch
           </div>
           <h1 className="text-4xl sm:text-6xl font-black text-slate-900 mb-6 leading-tight">
-            Let's <span className="text-blue-600">Talk</span>
+            Let&apos;s <span className="text-blue-600">Talk</span>
           </h1>
           <p className="text-slate-600 text-lg max-w-xl mx-auto leading-relaxed">
-            Have a project in mind or just want to explore what's possible?
-            We'd love to hear from you. We respond within 24 hours.
+            Have a project in mind or just want to explore what&apos;s possible?
+            We&apos;d love to hear from you. We respond within 24 hours.
           </p>
         </div>
       </section>
@@ -161,7 +161,7 @@ export default function ContactPage() {
                   </div>
                   <h3 className="text-3xl font-black text-slate-900 mb-4">Message Sent!</h3>
                   <p className="text-slate-600 max-w-sm mb-8 text-lg">
-                    Thank you for reaching out. We've received your message and will get back to you at{" "}
+                    Thank you for reaching out. We&apos;ve received your message and will get back to you at{" "}
                     <span className="text-blue-600 font-semibold">{form.email}</span> within 24 hours.
                   </p>
                   <div className="flex gap-4">
@@ -201,7 +201,7 @@ export default function ContactPage() {
                       <div className="space-y-6 animate-fade-in">
                         <div>
                           <h3 className="text-xl font-bold text-slate-900 mb-2">Tell us about yourself</h3>
-                          <p className="text-sm text-slate-600">Basic info so we know who we're talking to.</p>
+                          <p className="text-sm text-slate-600">Basic info so we know who we&apos;re talking to.</p>
                         </div>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                           <div>

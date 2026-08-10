@@ -3,11 +3,17 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, ChevronDown, ExternalLink, ArrowRight } from "lucide-react";
+import { Menu, X, ChevronDown, ArrowRight } from "lucide-react";
 import { Instagram, Linkedin } from "@/components/ui/SocialIcons";
 import Logo from "@/components/ui/Logo";
 
-const navLinks = [
+type NavLink = {
+  label: string;
+  href: string;
+  children?: { label: string; href: string; }[];
+};
+
+const navLinks: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
@@ -45,6 +51,7 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMobileOpen(false);
   }, [pathname]);
 

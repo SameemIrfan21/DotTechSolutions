@@ -4,12 +4,12 @@ import { useState } from "react";
 import Link from "next/link";
 import Logo from "@/components/ui/Logo";
 import {
-  LayoutDashboard, Users, FolderKanban, DollarSign, BarChart3,
-  Briefcase, LogOut, TrendingUp, UserCheck, FileText, Settings,
-  Plus, Search, ChevronRight, Activity
+  LayoutDashboard, Users, FolderKanban, DollarSign,
+  Briefcase, LogOut, TrendingUp, UserCheck, FileText,
+  Plus, Activity
 } from "lucide-react";
 import {
-  LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area
+  XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area
 } from "recharts";
 
 type TabId = "dashboard" | "clients" | "employees" | "projects" | "finance" | "crm" | "cms";
@@ -94,7 +94,7 @@ function DashboardTab() {
             <Tooltip
               contentStyle={{ background: "rgba(13,21,37,0.95)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: "8px", fontSize: "12px" }}
               labelStyle={{ color: "#94A3B8" }}
-              formatter={(v: number) => [`₹${v.toLocaleString()}`, ""]}
+              formatter={(v: unknown) => [`₹${Number(v).toLocaleString()}`, ""]}
             />
             <Area type="monotone" dataKey="revenue" stroke="#1A56DB" strokeWidth={2} fill="url(#rev)" name="Revenue" />
             <Area type="monotone" dataKey="expenses" stroke="#EF4444" strokeWidth={2} fill="url(#exp)" name="Expenses" />

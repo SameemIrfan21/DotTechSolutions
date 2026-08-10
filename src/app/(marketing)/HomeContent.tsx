@@ -305,7 +305,7 @@ export default function HomeContent() {
         
         <div className="section-container relative z-10 text-center max-w-3xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-black text-white mb-6">
-            Let's Build Something <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Amazing Together</span>
+            Let&apos;s Build Something <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Amazing Together</span>
           </h2>
           <p className="text-blue-100/80 text-lg mb-10">
             Ready to transform your ideas into reality? Contact us today for a free consultation and project proposal.
