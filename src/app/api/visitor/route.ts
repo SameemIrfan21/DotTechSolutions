@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const res = await fetch("https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fdottechsolutions.com&label=VISITORS&countColor=%233b82f6", {
+    const res = await fetch("https://hits.sh/dottechsolutions.com.svg?label=VISITORS&color=3b82f6", {
       cache: 'no-store',
       headers: {
         'Accept': 'image/svg+xml'
