@@ -45,7 +45,7 @@ export default function Logo({
         style={{ width: icon, height: icon }}
       >
         <Image
-          src="/images/logo.svg"
+          src="/logo.svg"
           alt="DotTech Solutions Logo"
           width={icon}
           height={icon}

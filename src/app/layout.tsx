@@ -83,7 +83,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "DotTech Solutions",
               url: "https://dottechsolutions.com",
-              logo: "https://dottechsolutions.com/images/logo.png",
+              logo: "https://dottechsolutions.com/logo.svg",
               description:
                 "Modern software development and AI solutions company.",
               sameAs: [

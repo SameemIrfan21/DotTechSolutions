@@ -9,5 +9,5 @@
   <!-- D Shape -->
   <path d="M 10 14 H 55 A 36 36 0 0 1 55 86 H 40 V 74 H 55 A 24 24 0 0 0 55 26 H 10 Z" fill="url(#dGrad)"/>
   <!-- T Shape -->
-  <path d="M 10 32 H 48 V 44 H 35 V 86 H 23 V 44 H 10 Z" fill="#FFFFFF"/>
+  <path d="M 10 32 H 48 V 44 H 35 V 86 H 23 V 44 H 10 Z" fill="#0f172a"/>
 </svg>

@@ -110,10 +110,23 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-slate-500 text-sm">
-            © {currentYear} DotTech Solutions. All rights reserved.
-          </p>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+            <p className="text-slate-500 text-sm">
+              © {currentYear} DotTech Solutions. All rights reserved.
+            </p>
+            {/* Visitor Counter Badge */}
+            <div 
+              className="flex items-center justify-center bg-white/5 rounded-lg px-3 py-1.5 border border-white/10 hover:bg-white/10 hover:border-blue-500/50 transition-all duration-300 w-full sm:w-auto shadow-sm backdrop-blur-sm" 
+              title="Total Website Visitors"
+            >
+              <img 
+                src="https://komarev.com/ghpvc/?username=dottechsolutions&label=VISITORS&color=3B82F6&style=for-the-badge" 
+                alt="Visitor Counter" 
+                className="h-5 sm:h-6 w-auto object-contain"
+              />
+            </div>
+          </div>
           
           <div className="flex items-center gap-4">
             <a 
