@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Mail, Phone, MessageCircle, ArrowRight, Zap, MapPin } from "lucide-react";
 import { Instagram, Linkedin, Github } from "@/components/ui/SocialIcons";
 import Logo from "@/components/ui/Logo";
+import VisitorCounter from "@/components/ui/VisitorCounter";
 
 const footerLinks = {
   Company: [
@@ -120,11 +121,7 @@ export default function Footer() {
               className="flex items-center justify-center bg-white/5 rounded-lg px-3 py-1.5 border border-white/10 hover:bg-white/10 hover:border-blue-500/50 transition-all duration-300 w-full sm:w-auto shadow-sm backdrop-blur-sm" 
               title="Total Website Visitors"
             >
-              <img 
-                src="https://komarev.com/ghpvc/?username=dottechsolutions&label=VISITORS&color=3B82F6&style=for-the-badge" 
-                alt="Visitor Counter" 
-                className="h-5 sm:h-6 w-auto object-contain"
-              />
+              <VisitorCounter />
             </div>
           </div>
           
